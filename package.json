@@ -1,0 +1,18 @@
+{
+  "name": "swap-bot",
+  "version": "1.0.0",
+  "description": "Bot for swapping SOL to USDC",
+  "main": "swapBot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node swapBot.js"
+  },
+  "dependencies": {
+    "@jup-ag/api": "^6.0.40",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "chalk": "^5.4.1",
+    "cross-fetch": "^4.1.0"
+  }
+}
